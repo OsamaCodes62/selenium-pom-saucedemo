@@ -60,8 +60,9 @@ Google Chrome
 Update chrome_path in main_test.py to your Chrome binary location
 
 Install dependencies:
-
+```
 pip install selenium undetected-chromedriver
+```
 ▶️ Run the Test
 
 python main_test.py
