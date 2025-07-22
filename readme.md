@@ -33,6 +33,7 @@ USERNAME = By.ID, "user-name"
 def do_login(self, user_name, password):
     self.do_send_keys(self.USERNAME, user_name)
     ...
+```
 This promotes:
 
 Reusability of code
@@ -43,11 +44,11 @@ Easy maintenance
 
 🔁 Base Page Abstraction
 The BasePage class (in base_file.py) provides:
-
+```
 do_click(locator)
 
 do_send_keys(locator, value)
-
+```
 These utility functions allow clean interaction with web elements across all page objects.
 
 🚀 Running the Test
@@ -99,7 +100,8 @@ Clean, maintainable, and scalable test code
 Real-world login testing scenario
 
 🙋‍♂️ About Me
-I'm a dedicated SQA Engineer who believes in test automation as a driver for efficiency and quality. I specialize in building test systems that are both reliable and easy to expand as software grows.
+I'm a dedicated SQA Engineer who believes in test automation as a driver for efficiency
+and quality. I specialize in building test systems that are both reliable and easy to expand as software grows.
 
 📌 Plans for Next Steps
 ✅ Add test reports (e.g., pytest-html, unittest-xml-reporting)
