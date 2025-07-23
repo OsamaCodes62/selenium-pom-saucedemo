@@ -8,7 +8,7 @@ This project automates login functionality for [SauceDemo](https://www.saucedemo
 
 ## 📂 Project Structure
 
-```text ├── base_file.py # BasePage class: reusable Selenium actions ├── DataModel.py # Test data and constants ├── login_page.py # Login Page Object Model ├── main_test.py # Executable test case using unittest ```
+<pre lang="markdown"> ```text ├── base_file.py # BasePage class: reusable Selenium actions ├── DataModel.py # Test data and constants ├── login_page.py # Login Page Object Model ├── main_test.py # Executable test case using unittest ``` </pre>
 
 ---
 
