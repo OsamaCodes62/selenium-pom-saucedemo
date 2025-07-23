@@ -8,10 +8,7 @@ This project automates login functionality for [SauceDemo](https://www.saucedemo
 
 ## 📂 Project Structure
 
-├── base_file.py # BasePage class: reusable Selenium actions
-├── DataModel.py # Test data and constants
-├── login_page.py # Login Page Object Model
-├── main_test.py # Executable test case using unittest
+```text ├── base_file.py # BasePage class: reusable Selenium actions ├── DataModel.py # Test data and constants ├── login_page.py # Login Page Object Model ├── main_test.py # Executable test case using unittest ```
 
 ---
 
@@ -59,17 +56,18 @@ Install dependencies:
 pip install selenium undetected-chromedriver
 ```
 ▶️ Run the Test
-
+```
 python main_test.py
+```
 The script will:
 
-Launch Chrome using undetected driver
+- Launch Chrome using undetected driver
 
-Navigate to SauceDemo
+- Navigate to SauceDemo
 
-Attempt login using predefined credentials
+- Attempt login using predefined credentials
 
-🔐 Features
+## 🔐 Features
 🧩 Page Object Model structure
 
 🔒 Uses undetected_chromedriver to bypass bot detection
