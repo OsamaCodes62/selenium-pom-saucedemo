@@ -13,10 +13,6 @@ This project automates login functionality for [SauceDemo](https://www.saucedemo
 ├── login_page.py # Login Page Object Model
 ├── main_test.py # Executable test case using unittest
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 💡 Key Concepts
@@ -36,11 +32,11 @@ def do_login(self, user_name, password):
 ```
 This promotes:
 
-Reusability of code
+ - Reusability of code
 
-Better readability
+ - Better readability
 
-Easy maintenance
+ - Easy maintenance
 
 🔁 Base Page Abstraction
 The BasePage class (in base_file.py) provides:
@@ -53,10 +49,9 @@ These utility functions allow clean interaction with web elements across all pag
 
 🚀 Running the Test
 🧱 Prerequisites
+
 Python 3.8+
-
 Google Chrome
-
 Update chrome_path in main_test.py to your Chrome binary location
 
 Install dependencies:
@@ -84,32 +79,28 @@ Attempt login using predefined credentials
 📁 Clean separation of test data, logic, and locators
 
 🔍 Sample Test Snippet
-
+```
 def test_case(self):
     login = loginPage(self.driver)
     login.do_login(Test_data.USER_NAME[0], Test_data.PASSWORD)
     self.assertTrue(True)
+
+```
 📈 Why This Project?
+
 This project demonstrates:
-
 Proficiency with Selenium and test automation frameworks
-
 Use of best practices in QA engineering
-
 Clean, maintainable, and scalable test code
-
 Real-world login testing scenario
 
 🙋‍♂️ About Me
 I'm a dedicated SQA Engineer who believes in test automation as a driver for efficiency
 and quality. I specialize in building test systems that are both reliable and easy to expand as software grows.
 
-📌 Plans for Next Steps
+📌 Future Plans
 ✅ Add test reports (e.g., pytest-html, unittest-xml-reporting)
-
 ✅ Include edge/negative login cases
-
 ✅ Add test steps for product/cart/inventory pages
-
 ✅ Integrate CI tools (GitHub Actions, Jenkins)
-```
+
