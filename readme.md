@@ -8,9 +8,24 @@ This project automates login functionality for [SauceDemo](https://www.saucedemo
 
 ## 📂 Project Structure
 
-<pre lang="markdown"> ```text ├── base_file.py # BasePage class: reusable Selenium actions ├── DataModel.py # Test data and constants ├── login_page.py # Login Page Object Model ├── main_test.py # Executable test case using unittest ``` </pre>
+Below is the high-level structure of the automation framework:
 
----
+```
+├── base_file.py          # BasePage class: reusable Selenium actions  
+├── DataModel.py          # Test data and constants  
+├── login_page.py         # Login Page Object Model  
+├── main_test.py          # Executable test case using unittest  
+```
+
+Each module is purposefully separated:
+
+- `base_file.py`: Contains common Selenium methods like `do_click`, `do_send_keys`, etc.
+- `DataModel.py`: Stores constants like URLs, usernames, and passwords.
+- `login_page.py`: Implements locators and login actions using Page Object Model.
+- `main_test.py`: Contains the main test flow using `unittest`.
+
+This modular design makes the framework easy to scale and maintain.
+
 
 ## 💡 Key Concepts
 
