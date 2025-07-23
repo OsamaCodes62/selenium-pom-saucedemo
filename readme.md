@@ -99,7 +99,7 @@ def test_case(self):
     self.assertTrue(True)
 
 ```
-📈 Why This Project?
+## 📈 Why This Project?
 
 This project demonstrates:
 Proficiency with Selenium and test automation frameworks
@@ -107,13 +107,13 @@ Use of best practices in QA engineering
 Clean, maintainable, and scalable test code
 Real-world login testing scenario
 
-🙋‍♂️ About Me
-I'm a dedicated SQA Engineer who believes in test automation as a driver for efficiency
-and quality. I specialize in building test systems that are both reliable and easy to expand as software grows.
 
-📌 Future Plans
-✅ Add test reports (e.g., pytest-html, unittest-xml-reporting)
-✅ Include edge/negative login cases
-✅ Add test steps for product/cart/inventory pages
+
+## 📌 Future Plans
+
+✅ Add test reports (e.g., pytest-html, unittest-xml-reporting)  
+✅ Include edge/negative login cases  
+✅ Add test steps for product/cart/inventory pages  
 ✅ Integrate CI tools (GitHub Actions, Jenkins)
+
 
